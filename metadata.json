@@ -1,0 +1,6 @@
+{
+  "name": "Sumba Referral Hospital Planner & Air Connectivity Tracker",
+  "description": "Interactive healthcare clinic planning and multi-leg air referral network analysis tool for Sumba Island, connecting regional hubs to National transit airports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

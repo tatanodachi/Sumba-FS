@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.minimal-scrollbar::-webkit-scrollbar {
+  height: 4px;
+}
+.minimal-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.minimal-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #D8D8D8;
+  border-radius: 20px;
+}
+
+.recharts-wrapper {
+  outline: none !important;
+}
+
+.recharts-wrapper *, .recharts-surface, .recharts-surface:focus, svg:focus {
+  outline: none !important;
+}
