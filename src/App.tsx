@@ -2094,7 +2094,7 @@ const TableRow = memo(
       indentClass = "pl-8 text-[10px]";
     }
 
-    let firstColClass = `px-4 py-2 sticky left-0 z-10 group-hover:z-[80] focus-within:z-[80] [&:has(.tooltip-open)]:z-[90] border-r border-b border-[#D8D8D8] whitespace-nowrap transition-colors shadow-[2px_0_5px_-2px_rgba(0,0,0,0.1)] ${baseColorClass} ${indentClass} ${isCollapsible ? "cursor-pointer select-none" : ""}`;
+    let firstColClass = `px-4 py-2 sticky left-0 z-10 group-hover:z-[30] focus-within:z-[30] [&:has(.tooltip-open)]:z-[40] border-r border-b border-[#D8D8D8] whitespace-nowrap transition-colors shadow-[2px_0_5px_-2px_rgba(0,0,0,0.1)] ${baseColorClass} ${indentClass} ${isCollapsible ? "cursor-pointer select-none" : ""}`;
     let totalColClass = `px-3 py-2 text-right font-bold font-mono border-l border-b border-[#D8D8D8] sticky right-0 z-10 shadow-[-2px_0_5px_-2px_rgba(0,0,0,0.1)] ${baseColorClass} ${!highlight ? "group-hover:bg-[#F9F8F6]" : ""}`;
 
     return (

@@ -15,20 +15,22 @@ export const GLAMPING_ASSUMPTIONS = {
   type: "glamping",
   landArea: 41042,
   buildArea: 5000,
+  capexInfraQty: 19569,
+  capexInfraPrice: 0.45,
   devDurationMonths: 12,
   
   // Glamping Specifics
-  roomUnits: 15,
+  roomUnits: 20,
   barUnits: 1,
-  adr: 2000000, // IDR
+  adr: 2500000, // IDR
   barRevenuePctOfRoom: 0.40,
-  fbCogsPct: 40,
-  civilMepCostPerUnit: 150, // million IDR
+  fbCogsPct: 35,
+  civilMepCostPerUnit: 100, // million IDR
   adrEscalationYear1to5: 5,
   adrEscalationAfterYear5: 3,
   
   initialOccupancy: 0.30,
-  stabilizedOccupancy: 0.50,
+  stabilizedOccupancy: 0.55,
   seasonality: [0.8, 0.7, 0.9, 1.1, 1.2, 1.3, 1.4, 1.3, 1.2, 1.0, 0.9, 0.8],
   
   // Glamping OpEx
@@ -53,7 +55,7 @@ export const GLAMPING_ASSUMPTIONS = {
       id: 1,
       name: "1Br Tent - Deluxe",
       size: "5 x 5",
-      qty: 9,
+      qty: 12,
       villaCost: 649347750,
       interiorCost: 182913300,
       isAccommodation: true
@@ -62,7 +64,7 @@ export const GLAMPING_ASSUMPTIONS = {
       id: 2,
       name: "1Br Tent - Family",
       size: "5 x 7.5",
-      qty: 5,
+      qty: 6,
       villaCost: 683849250,
       interiorCost: 275237100,
       isAccommodation: true
@@ -71,7 +73,7 @@ export const GLAMPING_ASSUMPTIONS = {
       id: 3,
       name: "1Br Tent - Suite",
       size: "7.5 x 10",
-      qty: 1,
+      qty: 2,
       villaCost: 1046354850,
       interiorCost: 306805050,
       isAccommodation: true
