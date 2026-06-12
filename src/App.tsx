@@ -2010,7 +2010,9 @@ const SettingsHeader = memo(
       </div>
 
       {/* Center Slot for Nav */}
-      <div className="w-full md:flex-1 min-w-0 overflow-x-auto overflow-y-hidden minimal-scrollbar">{children}</div>
+      <div className="w-full md:flex-1 min-w-0 overflow-x-auto overflow-y-hidden minimal-scrollbar py-2">
+        <div className="inline-flex min-w-full justify-center">{children}</div>
+      </div>
 
       <div className="flex flex-wrap md:flex-nowrap gap-2 shrink-0">
         <button
@@ -12262,7 +12264,7 @@ export default function App() {
   const [isLockedAsset, setIsLockedAsset] = useState(true);
   const [isPresenting, setIsPresenting] = useState(false);
   const [hubPosition, setHubPosition] = useState("center"); // 'center', 'left', 'right', 'minimized'
-  const [isFloatingPanelVisible, setIsFloatingPanelVisible] = useState(true);
+  const [isFloatingPanelVisible, setIsFloatingPanelVisible] = useState(false);
 
   // Cloud Sync State
   const [isCloudSync, setIsCloudSync] = useState(false);
